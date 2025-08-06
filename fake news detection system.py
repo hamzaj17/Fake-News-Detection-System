@@ -25,8 +25,8 @@ def clean_text(text):
 # --- DATA LOAD ---
 @st.cache_data
 def load_data():
-    fake_df = pd.read_csv("C:/Users/SAMSUNG/OneDrive/Documents/Information Retrieval Labs/IR Project/Fake.csv")
-    true_df = pd.read_csv("C:/Users/SAMSUNG/OneDrive/Documents/Information Retrieval Labs/IR Project/True.csv")
+    fake_df = pd.read_csv("C:/Users/SAMSUNG/OneDrive/Documents/Information Retrieval Labs/fake news detection system/Fake.csv")
+    true_df = pd.read_csv("C:/Users/SAMSUNG/OneDrive/Documents/Information Retrieval Labs/fake news detection system/True.csv")
     fake_df['label'] = 'FAKE'
     true_df['label'] = 'TRUE'
     df = pd.concat([fake_df, true_df], ignore_index=True)
@@ -128,4 +128,5 @@ elif option == "Search News":
             for _, row in results.head().iterrows():
                 st.markdown(f"**[{row['label']}]** {row.get('title', 'No Title')}")
                 st.text(row['text'][:300] + '...')
+
 
