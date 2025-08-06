@@ -4,6 +4,8 @@ A web-based Fake News Detection system built with Python, Streamlit, and Machine
 
 This project uses the `True.csv` and `Fake.csv` datasets, applies text preprocessing (cleaning), TF-IDF vectorization, and trains a Logistic Regression classifier. Additionally, Rocchio classification with cosine similarity is implemented for a secondary prediction method. 
 
+- My Fake News Detection system has a model accuracy of `0.98%`.
+
 The app offers the following features:
 - 📄 **Classify Text**: Paste any article to check if it's fake or real.
 - 🌐 **Classify from URL**: Enter a news article URL and automatically fetch and classify it.
