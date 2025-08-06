@@ -21,6 +21,10 @@ The app offers the following features:
 
 ## 📁 Dataset Source
 - `Fake.csv` and `True.csv` from the Kaggle Fake News dataset (manually downloaded).
+  
+ <p>link: https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset</p>
+
+ ---
 
 ## 🛠️ How to Run
 
