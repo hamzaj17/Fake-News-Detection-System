@@ -25,10 +25,10 @@ The app offers the following features:
 ## 🛠️ How to Run
 
 1. Clone the repository  
-   `git clone https://github.com/hamzaj17/fake-news-detection-system.git`
+   `git clone https://github.com/hamzaj17/Fake-News-Detection-System.git`
 
 2. Navigate to project folder  
-   `cd fake-news-detection-system`
+   `cd Fake-News-Detection-System`
 
 3. Install the required libraries  
 
